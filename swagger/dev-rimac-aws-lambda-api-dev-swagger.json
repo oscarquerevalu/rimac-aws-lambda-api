@@ -1,0 +1,29 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "2021-05-15T21:17:35Z",
+    "title": "dev-rimac-aws-lambda-api"
+  },
+  "host": "02gwbo1wm6.execute-api.us-east-1.amazonaws.com",
+  "basePath": "/dev",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/persona": {
+      "post": {
+        "responses": {}
+      }
+    },
+    "/persona/{id}": {
+      "get": {
+        "responses": {}
+      }
+    },
+    "/personaje/{id}": {
+      "get": {
+        "responses": {}
+      }
+    }
+  }
+}
