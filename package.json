@@ -2,9 +2,9 @@
   "name": "rimac-aws-lambda-api",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "main": "personaje_handler.js",
   "scripts": {
-    "invoke": "sls invoke local -f hello",
+    "invoke": "sls invoke local -f obtener",
     "deploy": "sls deploy --stage dev --verbose"
   },
   "keywords": [],
